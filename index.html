@@ -18,10 +18,13 @@
         <h1>Packet Viewer</h1>
         <textarea id="packetInput" class="form-control" rows="8" placeholder="Enter your packet data here"></textarea><br>
         <button onclick="formatHexInput()">Format</button>
+        <br><br>
+        <p>Click a byte to selected it and display information about it.</p>
+
         <div class="row mt-4">
             <div class="col-md-6">
                 <h2>Hex Data View</h2>
-                <div id="hexDataView"></div>
+                <div id="hexDataView"></div><br>
                 <div id="packetLength"></div>
                 <div id="selectedByteInfo"></div>
             </div>
